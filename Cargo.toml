@@ -2,5 +2,11 @@
 name = "rex_axum_sdk"
 version = "0.1.0"
 edition = "2021"
-
+[lib]
+name = "rex_axum_sdk" # 這個決定了你的函式庫在其他專案引入時的名稱
+crate-type = ["lib"]  # 這個決定了編譯的目標類型
 [dependencies]
+tokio = { version = "1.28.2", features = ["full"] }
+tracing = "0.1.40"
+tokio-cron-scheduler = "0.9.4"
+tracing-subscriber = "0.3.18"
