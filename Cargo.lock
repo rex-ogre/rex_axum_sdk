@@ -1489,6 +1489,7 @@ dependencies = [
 name = "rex_axum_sdk"
 version = "0.1.0"
 dependencies = [
+ "async-trait",
  "axum",
  "chrono",
  "hyper",
