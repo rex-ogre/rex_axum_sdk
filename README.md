@@ -1,6 +1,11 @@
 # Rex Axum Scheduler
+A comprehensive Rust SDK providing essential tools for web service development, featuring Firebase integration, task scheduling, SQLx utilities, and more.
+Features
 
-A asynchronous task scheduler for Rust, built on top of tokio runtime. It provides flexible cron expression support for scheduling tasks with atomic operation guarantees.
+Firebase Authentication: JWT validation and claims management
+FCM Messaging: Firebase Cloud Messaging integration
+Task Scheduler: Cron-based task scheduling with async support
+SQLx Extensions: Enhanced PostgreSQL query builder and execution utilities
 
 ## Quick Start
 
